@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce | Contacto</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+  <header class="py-4">
+    <h1 class="text-center fw-bold">
+      Tienda 
+      <span class="text-primary">Muebles</span>
+    </h1>
+  </header>
+
+  <div class="border-top py-4">
+    <div class="navbar navbar-expand-lg container navbar-light">
+      <a class="d-lg-none navbar-brand text-uppercase fs-2 text-primary fw-bold" href="index.html">
+        Tienda Muebles
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="navegacion" class="collapse navbar-collapse">
+        <nav class="container navbar-nav text-center d-flex flex-md-row justify-content-md-between">
+          <a class="text-dark text-decoration-none" href="index.html">Inicio</a>
+          <a class="text-dark text-decoration-none" href="nosotros.html">Nosotros</a>
+          <a class="text-dark text-decoration-none" href="tienda.html">Tienda</a>
+          <a class="text-dark text-decoration-none" href="blog.html">Blog</a>
+          <a class="text-dark text-decoration-none" href="galeria.html">Galeria</a>
+          <a class="text-dark text-decoration-none" href="contacto.html">Contacto</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <main class="container-xl py-5">
+    <h2 class="text-center my-5">Contacto</h2>
+    
+    <div class="row">
+      <form action="" class="col-md-8 mx-auto needs-validation" novalidate>
+        <fieldset>
+          <legend class="bg-primary text-center text-white fs-1 fw-bold">Tus datos</legend>
+
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+            <span class="invalid-feedback">Hubo un error</span>
+
+          </div>
+
+          <div class="mb-3">
+            <label for="asunto" class="form-label">Asunto</label>
+            <input type="text" class="form-control" id="asunto" placeholder="Tu asunto" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Tu email" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="telefono" class="form-label">Telefono</label>
+            <input type="tel" class="form-control" id="telefono" placeholder="Tu telefono" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" class="form-control" rows="10"></textarea>
+          </div>
+
+        </fieldset>
+
+        <fieldset>
+          <legend class="bg-primary text-center text-white mt-4 fw-bold fs-1">Pais</legend>
+
+          <div class="mb-3">
+            <label for="pais" class="form-label">Pais</label>
+            <select name="pais" id="pais" class="form-control">
+              <option value="HN">Honduras</option>
+              <option value="MX">Mexico</option>
+              <option value="CO">Colombia</option>
+              <option value="ES">España</option>
+              <option value="US">Estados Unidos</option>
+              <option value="AR">Argentina</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend class="bg-primary text-center text-white mt-4 fw-bold fs-1">Informacion extra</legend>
+
+          <div class="mb-3">
+            <label for="cliente" class="form-label">Cliente</label>
+            <input type="radio" id="cliente" name="tipo" class="form-check-input">
+          </div>
+
+          <div class="mb-3">
+            <label for="cliente" class="form-label">Proveedor</label>
+            <input type="radio" id="proveedor" name="tipo" class="form-check-input">
+          </div>
+        </fieldset>
+
+        <input type="submit" class="btn btn-primary py-2 fs-1 mt-3 px-4" value="Enviar">
+      </form>
+    </div>
+
+  </main>
+
+  <footer class="container-xl border-top py-5 mt-5">
+    <div class="row">
+      <div class="col-md-4 mb-4 text-center">
+        <h3>Categorías</h3>
+
+        <nav class="">
+            <a href="#" class="text-decoration-none text-dark d-block text-center">Cocina</a>
+            <a href="#" class="text-decoration-none text-dark d-block text-center">Oficina</a>
+            <a href="#" class="text-decoration-none text-dark d-block text-center">Jardín</a>
+            <a href="#" class="text-decoration-none text-dark d-block text-center">Cochera</a>
+            <a href="#" class="text-decoration-none text-dark d-block text-center">Dormitorios</a>
+        </nav>
+
+      </div>
+      <div class="col-md-4 mb-4 text-center">
+        <h3>Sobre nosotros</h3>
+
+        <nav class="">
+          <a href="#" class="text-decoration-none text-dark d-block text-center">
+            Nuestra historia
+          </a>
+          <a href="#" class="text-decoration-none text-dark d-block text-center">
+            Misión, Visión y Valores
+          </a>
+          <a href="#" class="text-decoration-none text-dark d-block text-center">
+            Politicas de privacidad
+          </a>
+          <a href="#" class="text-decoration-none text-dark d-block text-center">
+            Terminos y servicios
+          </a>
+      </nav>
+      </div>
+      <div class="col-md-4 mb-4 text-center">
+        <h3>Soporte</h3>
+
+        <nav class="">
+          <a href="#" class="text-decoration-none text-dark d-block text-center">
+            Preguntas frecuentes
+          </a>
+          <a href="#" class="text-decoration-none text-dark d-block text-center">Oficina</a>
+          <a href="#" class="text-decoration-none text-dark d-block text-center">
+            Ayuda en linea
+          </a>
+          <a href="#" class="text-decoration-none text-dark d-block text-center">
+            Confianza y seguridad
+          </a>
+      </nav>
+      </div>
+
+      <p class="my-3 text-center fs-2">
+        Todos los derechos reservados.
+        <span class="text-primary fw-bold">TiendaMuebles</span>
+      </p>
+    </div>
+  </footer>
+  
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
